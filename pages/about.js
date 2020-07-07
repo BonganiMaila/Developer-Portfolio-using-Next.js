@@ -4,6 +4,16 @@ import Layout from '../components/MyLayout'
 
 
 export default () => (
+  
+  //code from google analytics
+
+  //useEffect(() => {
+    //ReactGa.initialize('UA-171656134-1')
+
+    //report the page view
+  //  ReactGa.pageview('/')
+//}, []);
+
 <Layout>
   <div className="about-grid">
   
