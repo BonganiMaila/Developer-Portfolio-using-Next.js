@@ -85,6 +85,9 @@ export default () => (
     width:250px;
     height:250px;
     border-radius: 50%;
+    z-index: 10;
+    position: relative;
+    box-shadow: 3px 3px 3px #dadada, -3px -3px 3px #fafafa;
   }
   h1 {
     font-family: 'Raleway', sans-serif;
@@ -112,6 +115,7 @@ export default () => (
     padding-right: 50px;
     padding-bottom: 0;
     height: 300px; /* Should be removed. Only for demonstration */
+
   }
   .column2 {
     float: left;

@@ -9,31 +9,44 @@ const linkStyle = {
     marginRight: 15
 }
 
-const Header = () => ( 
-    <div className = "nav">
-        <ul className="nav-list">
-        <Link href = "/" className="nav-list">
-    <a> Home </a>  
-    </Link> 
+const Header = () => ( <
+    div className = "nav" >
+    <
+    ul className = "nav-list" >
+    <
+    Link href = "/"
+    className = "nav-list" >
+    <
+    a > Home < /a>   <
+    /Link> 
 
-    <Link href = "/about" className="nav-list">
-    <a> About </a>  
-    </Link>  
+    <
+    Link href = "/about"
+    className = "nav-list" >
+    <
+    a > About < /a>   <
+    /Link>  
 
-    <Link href = "/projects" className="nav-list">
-    <a> Projects </a>  
-    </Link>  
-    
-    <Link href = "/contact" className="nav-list">
-    <a> Contact </a>  
-    </Link>
-        </ul>
-    
-     
+    <
+    Link href = "/projects"
+    className = "nav-list" >
+    <
+    a > Projects < /a>   <
+    /Link>  
+
+    <
+    Link href = "/contact"
+    className = "nav-list" >
+    <
+    a > Contact < /a>   <
+    /Link> <
+    /ul>
 
 
-    { /*About me styling*/ } 
-    <style jsx> { `
+
+
+    { /*About me styling*/ } <
+    style jsx > { `
               .nav {
                 display: flex;
                 justify-content: flex-end;
@@ -41,10 +54,22 @@ const Header = () => (
                 top: 0;
                 left: 0;
                 width: 100%;
-                background-color: #d8e7f2;
                 box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
                 z-index: 10;
                 height: 80px;
+                transition: all 0.5s;
+                color: #3c3c3c;
+                font-weight: 600;
+                font-size: 1.1rem;
+                background-color: transparent !important;
+
+                
+    
+    
+    
+    margin: 0 10px;
+    line-height: 1.5em;
+    
             }
             
 .nav-list {
@@ -70,9 +95,17 @@ const Header = () => (
 
 
               
-            ` } 
-    </style> 
-    </div>
+            ` } <
+    /style>  <
+    /div>
 )
 
 export default Header
+
+
+{
+    /*
+        navbar color
+    background-color: #d8e7f2;
+    */
+}
